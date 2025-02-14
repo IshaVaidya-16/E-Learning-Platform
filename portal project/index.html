@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Victory Learnings</title>
+</head>
+
+<body>
+    <!-- header start  -->
+    <header class="header">
+        <a href="index.html" class="logo">Victory Learnings</a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="courses.html">Courses</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+    <!-- header end  -->
+
+    <!-- account form start  -->
+    <div class="account-form">
+        <div id="close-form" class="fas fa-times"></div>
+
+        <div class="buttons">
+            <span class="btn login-btn active">Login</span>
+            <span class="btn register-btn">Register</span>
+        </div>
+
+        <form action="" class="login-form active">
+            <h3>Student Login</h3>
+            <input type="email" placeholder="Enter your email" class="box" />
+            <input type="password" placeholder="Enter your password" class="box" />
+            <div class="flex">
+                <input type="checkbox" name="" id="remember-me" />
+                <label for="remember-me">Remember-me</label>
+                <a href="#">Forgot password</a>
+            </div>
+            <input type="submit" class="btn" value="Student Login" />
+        </form>
+
+        <form action="" class="register-form">
+            <h3>Register</h3>
+            <input type="email" placeholder="Enter your email" class="box" />
+            <input type="password" placeholder="Enter your password" class="box" />
+            <input type="password" placeholder="Confirm your password" class="box" />
+            <input type="submit" class="btn" value="Register" />
+        </form>
+    </div>
+    <!-- account form end  -->
+
+    <!-- home start  -->
+    <section class="home">
+        <div class="home-slider swiper">
+            <div class="swiper-wrapper">
+                <section class="swiper-slide slider" style="background-image: url(images/cover[1]-min.jpg)">
+                    <div class="content">
+                        <h3>Education made fun and simple!</h3>
+                        <p>
+                           Grab this opportunity and become lifelong skilled with the best teachers and detail-explained videos which will help you achieve your goals. 
+                        </p>
+                        <a href="/courses.html" class="btn">get started</a>
+                    </div>
+                </section>
+
+                <section class="swiper-slide slider" style="background-image: url(images/home-2-min.jpg)">
+                    <div class="content">
+                        <h3>The most progressive education theme!</h3>
+                        <p>
+                            Implement the top-notch learning technology of LMS and create a
+                            perfect workflow within any eductional institution
+                        </p>
+                        <a href="/courses.html" class="btn">get started</a>
+                    </div>
+                </section>
+                <section class="swiper-slide slider" style="background-image: url(images/home-3.jpg)">
+                    <div class="content">
+                        <h3>The more you learn, the wiser you get!</h3>
+                        <p>
+                            Learning with us will help you achieve your goals.So what are you waiting for??
+                        </p>
+                        <a href="/courses.html" class="btn">get started</a>
+                    </div>
+                </section>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- home end  -->
+
+    <!-- subjects start  -->
+
+		<section class="subjects">
+			<h1 class="heading">Choose what to learn</h1>
+			<div class="box-container">
+				<div class="box">
+					<a href="courses.html">
+					<img src="images/html.jpg" alt="" />
+					<h3>HTML</h3>
+					<p>8 hours</p>
+				</a>
+				</div>
+				<div class="box">
+					<a href="courses.html">
+					<img src="images/css.jpg" alt="" />
+					<h3>CSS</h3>
+					<p>24 hours</p>
+				</a>
+				</div>
+				<div class="box">
+					<a href="courses.html">
+					<img src="images/js2.jpg" alt="" />
+					<h3>JAVASCRIPT</h3>
+					<p>24 hours</p>
+				</a>
+				</div>
+				<div class="box">
+					<a href="courses.html"></a>
+					<img src="images/boot.jpg" alt="" />
+					<h3>BOOTSTRAP</h3>
+					<p>16 hours</p>
+				</div>
+				<div class="box">
+					<a href="courses.html">
+					<img src="images/react.jpg" alt="" />
+					<h3>REACT JS</h3>
+					<p>24 hours</p>
+				</a>
+				</div>
+				<div class="box">
+					<a href="courses.html">
+					<img src="images/sql.jpg" alt="" />
+					<h3>SQL</h3>
+					<p>13 hours</p>
+				</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- subjects end  -->
+
+    <!-- home courses start  -->
+    <section class="home-courses">
+        <h1 class="heading">our courses</h1>
+        <div class="home-courses-slider swiper">
+            <div class="swiper-wrapper">
+                <div class="slide swiper-slide">
+                    <div class="image">
+                        <img src="./images/course-home-1.png" alt="" />
+                        <h3>Web development</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Web development</h3>
+                        <p>The Web Development course will teach you how to create web pages, apps, and other online
+                            content by using the languages HTML, and CSS.</p>
+                        <a href="/courses.html" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <div class="image">
+                        <img src="./images/course-home-3.png" alt="" />
+                        <h3>Digital Marketing</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Digital Marketing</h3>
+                        <p>This course aims to set a solid foundation for the digital marketing skills required for
+                            successful campaigns in the digital world..</p>
+                        <a href="/courses.html" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <div class="image">
+                        <img src="./images/course-home-5.png" alt="" />
+                        <h3>Machine Learning</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Machine Learning</h3>
+                        <p>This course will provide you with the necessary tools and knowledge to help you make the most
+                            of machine learning technology and maximize its potential.</p>
+                        <a href="/courses.html" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <div class="image">
+                        <img src="./images/course-home-4.png" alt="" />
+                        <h3>Data Science</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Data Science</h3>
+                        <p>This course will help you learn how to use data and statistical models to make predictions,
+                            communicate your findings with a broad range of audiences.</p>
+
+                        <a href="/courses.html" class="btn">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+    </section>
+    <!-- home courses end  -->
+
+    <!-- footer start  -->
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" placeholder="enter your email" class="email">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="index.html" class="link">home</a>
+                <a href="about.html" class="link">about</a>
+                <a href="courses.html" class="link">courses</a>
+                <a href="contact.html" class="link">contact</a>
+            </div>
+            <div class="box">
+                <h3>useful links</h3>
+                <a href="#" class="link">send feedback</a>
+                <a href="#" class="link">ask questions</a>
+                <a href="#" class="link">help center</a>
+                <a href="#" class="link">terms of use</a>
+                <a href="#" class="link">private policy</a>
+            </div>
+            <div class="box">
+                <h3>Education</h3>
+                <p>“Learning is not attained by chance; it must be sought for with ardour and diligence.”</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                </div>
+            </div>
+        </div>
+        <div class="credit">
+            created by <span>isha</span> | All rights reserved.
+        </div>
+    </section>
+
+    <!-- footer end  -->
+
+    <!-- swiper js link  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- js file link  -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
